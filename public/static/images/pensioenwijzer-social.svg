@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="1" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#background)"/>
+  <path d="M94 157h56v56H94zM162 157h56v56h-56z" rx="12" fill="url(#mark)"/>
+  <text x="94" y="314" fill="#fff" font-family="Arial, sans-serif" font-size="72" font-weight="700">PensioenWijzer</text>
+  <text x="98" y="376" fill="#bfdbfe" font-family="Arial, sans-serif" font-size="30">Begrijp je pensioen stap voor stap</text>
+  <path d="M98 444h1004" stroke="#ffffff" stroke-opacity=".2" stroke-width="2"/>
+  <text x="98" y="510" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="25">AOW  ·  Werkgeverspensioen  ·  Zelf aanvullen</text>
+</svg>

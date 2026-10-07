@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Microsoft 365 Copilot" version="24.7.17" pages="2">
+  <diagram name="Pijler 2 - opbouwfase" id="p2-build">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Pijler 2: de opbouwfase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1E1B4B;fontColor=#FFFFFF;fontStyle=1;fontSize=22;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500" y="30" width="1200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="work" value="1. Je werkt bij een werkgever&lt;br&gt;&lt;b&gt;met een pensioenregeling&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;fontColor=#1E1B4B;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="salary" value="2. Pensioengevend salaris&lt;br&gt;minus franchise&lt;br&gt;= pensioengrondslag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;fontColor=#1E1B4B;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="premium" value="3. Premie over de pensioengrondslag&lt;br&gt;werknemersdeel + werkgeversdeel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="900" y="220" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="executor" value="4. Werkgever draagt af aan&lt;br&gt;&lt;b&gt;pensioenfonds, verzekeraar of PPI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="220" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="capital" value="5. Premie wordt collectief belegd&lt;br&gt;en vormt pensioenvermogen" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="220" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="work" target="salary">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="salary" target="premium">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="premium" target="executor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="executor" target="capital">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="long" value="Jarenlange opbouwfase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;fontColor=#1E1B4B;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="900" y="450" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="returns" value="Beleggingsrendement&lt;br&gt;kan positief of negatief zijn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="580" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="costs" value="Kosten gaan van premie/vermogen af&lt;br&gt;• administratie&lt;br&gt;• vermogensbeheer&lt;br&gt;• verzekering van risico’s" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="930" y="580" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="risk" value="Risicodekkingen volgens regeling&lt;br&gt;• partnerpensioen vóór pensioendatum&lt;br&gt;• wezenpensioen&lt;br&gt;• soms premievrijstelling bij arbeidsongeschiktheid" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="570" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ecaplong" value="vermogen groeit in de tijd" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#7C3AED;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="capital" target="long">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eret" value="rendement" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#059669;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="returns" target="long">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ecost" value="kosten" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#DC2626;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="long" target="costs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erisk" value="deel premie" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#EA580C;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="long" target="risk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="retire" value="Pensioendatum" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;fontColor=#1E1B4B;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="900" y="820" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="elongret" value="opgebouwd vermogen / aanspraak" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="long" target="retire">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="payout" value="Levenslange pensioenuitkering&lt;br&gt;bovenop de AOW" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1010" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eretpay" value="uitkeringsfase" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="retire" target="payout">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="who" value="Bij wie bouw je op?&lt;br&gt;&lt;br&gt;&lt;b&gt;Bedrijfstakpensioenfonds&lt;/b&gt; voor een sector&lt;br&gt;&lt;b&gt;Ondernemingspensioenfonds&lt;/b&gt; van een bedrijf&lt;br&gt;&lt;b&gt;Algemeen pensioenfonds&lt;/b&gt;&lt;br&gt;&lt;b&gt;Verzekeraar&lt;/b&gt;&lt;br&gt;&lt;b&gt;Premiepensioeninstelling (PPI)&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="500" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Nieuwe pensioenregels: de premie staat centraal. In een premieregeling wordt de ingelegde premie collectief belegd. De uiteindelijke uitkering is niet vooraf als exact bedrag gegarandeerd en beweegt mee met rendement, rente, levensverwachting, kosten en de afspraken in jouw regeling." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="850" width="600" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Pijler 2 - wat kost het?" id="p2-cost">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2" value="Wat kost pijler 2?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1E1B4B;fontColor=#FFFFFF;fontStyle=1;fontSize=22;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500" y="30" width="1200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="formula" value="Bruto jaarsalaris&lt;br&gt;− franchise&lt;br&gt;= pensioengrondslag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;fontColor=#1E1B4B;fontStyle=1;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rate" value="Pensioengrondslag&lt;br&gt;× premiepercentage&lt;br&gt;= totale jaarpremie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="210" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="split" value="Totale premie&lt;br&gt;wordt verdeeld tussen&lt;br&gt;werkgever en werknemer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#064E3B;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="210" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dest" value="Premie → uitvoerder → beleggingen → pensioenvermogen" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="210" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c0" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="formula" target="rate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="rate" target="split">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=3;fontSize=11;" edge="1" parent="1" source="split" target="dest">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fran" value="&lt;b&gt;Franchise&lt;/b&gt;&lt;br&gt;Over dit deel van het salaris bouw je meestal geen werkgeverspensioen op, omdat de AOW al als basisvoorziening geldt." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="560" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="exact" value="&lt;b&gt;Jouw echte kosten staan in:&lt;/b&gt;&lt;br&gt;• loonstrook: werknemerspremie&lt;br&gt;• pensioenreglement: premiepercentage en verdeling&lt;br&gt;• Uniform Pensioenoverzicht (UPO)&lt;br&gt;• Mijnpensioenoverzicht.nl: verwachte uitkering" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="450" width="560" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="varies" value="&lt;b&gt;Geen universeel percentage&lt;/b&gt;&lt;br&gt;De premie, franchise, werkgeversbijdrage, kosten en risicodekkingen verschillen per cao, werkgever en pensioenregeling. Daarom is “werkgever 2/3, werknemer 1/3” alleen een veelvoorkomende globale verdeling, geen vaste wettelijke regel." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="450" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="example" value="Rekenvoorbeeld, uitsluitend ter illustratie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1E1B4B;fontColor=#FFFFFF;fontStyle=1;fontSize=22;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="730" width="1000" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="la0" value="Bruto jaarsalaris" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="830" width="600" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lb0" value="€ 40.000" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="830" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="la1" value="Voorbeeldfranchise" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="885" width="600" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lb1" value="− € 18.000" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="885" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="la2" value="Pensioengrondslag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="940" width="600" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lb2" value="= € 22.000" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="940" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="la3" value="Voorbeeldpremie 25%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="995" width="600" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lb3" value="€ 5.500 per jaar totaal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="995" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="la4" value="Voorbeeld werknemer 1/3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1050" width="600" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lb4" value="€ 1.833 per jaar ≈ € 153 per maand bruto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1050" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="la5" value="Voorbeeld werkgever 2/3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1105" width="600" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="lb5" value="€ 3.667 per jaar ≈ € 306 per maand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1105" width="400" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="exnote" value="Dit voorbeeld is géén actuele standaardregeling en géén persoonlijke berekening. Het laat alleen zien hoe de rekensom werkt. Gebruik voor echte bedragen altijd jouw loonstrook, pensioenreglement en UPO." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1190" width="1000" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1025 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Microsoft 365 Copilot" version="24.7.17" pages="4">
+  <diagram name="1 - Hoofdroute geld" id="p1">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t" value="Hoofdroute: van betaler naar ontvanger" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1E1B4B;fontColor=#FFFFFF;fontStyle=1;fontSize=20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="550" y="30" width="1300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="payer" value="Huishouden / werknemer / werkgever" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="collector" value="Belastingdienst / werkgever / verzekeraar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pot" value="Rijksbegroting / fonds / pensioenvermogen" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="990" y="210" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="manager" value="SVB / UWV / Zorginstituut / pensioenuitvoerder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="210" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="recipient" value="Burger / zorgverzekeraar / zorgkantoor / overheidstaak" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="210" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ov0" value="betaling / inhouding" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="payer" target="collector">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov1" value="afdracht" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="collector" target="pot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov2" value="financiering" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="pot" target="manager">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov3" value="uitkering / betaling" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="manager" target="recipient">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aow" value="AOW-premie + rijksbijdrage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aowf" value="Ouderdomsfonds" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="980" y="490" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="svb" value="SVB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="490" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aowrec" value="AOW-gerechtigden" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="490" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aow0" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#DC2626;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="aow" target="aowf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aow1" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#DC2626;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="aowf" target="svb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aow2" value="→" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#DC2626;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="svb" target="aowrec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zvfin" value="Nominale premie rechtstreeks aan zorgverzekeraar&lt;br&gt;+ inkomensafhankelijke Zvw-bijdrage via Belastingdienst&lt;br&gt;+ rijksbijdrage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="500" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="zvf" value="Zorgverzekeringsfonds" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="730" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zin" value="Zorginstituut Nederland" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="730" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zorgont" value="Zorgverzekeraars → zorgaanbieders → verzekerden" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="720" width="360" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="z1" value="inkomensafhankelijke bijdrage + rijksbijdrage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#059669;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="zvfin" target="zvf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z2" value="beheer" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#059669;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="zvf" target="zin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3" value="risicoverevening / betalingen" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#059669;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="zin" target="zorgont">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nomnote" value="Let op: de nominale zorgpremie gaat niet eerst het Zorgverzekeringsfonds in. Die betaalt de verzekerde rechtstreeks aan de zorgverzekeraar. Het fonds en de nominale premie financieren samen de basisverzekering." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="860" width="2000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pensin" value="Pensioenpremie werknemer + werkgever" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#7C2D12;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1080" width="400" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="penspot" value="Pensioenfonds / verzekeraar / PPI&lt;br&gt;belegd pensioenvermogen" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#78350F;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1070" width="400" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="pensout" value="Pensioen- en nabestaandenuitkeringen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;fontColor=#1E3A8A;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1080" width="330" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pe1" value="premies" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#7C3AED;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="pensin" target="penspot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe2" value="later uitkeren" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#7C3AED;strokeWidth=2;fontSize=10;" edge="1" parent="1" source="penspot" target="pensout">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2 - Rijksbelastingen" id="p2">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1694" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p2t" value="Rijksbelastingen: betaler → inning → bestemming → ontvanger" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1E1B4B;fontColor=#FFFFFF;fontStyle=1;fontSize=20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="1800" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p2h0" value="Heffing / premie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="125" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2h1" value="Wie betaalt?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="125" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2h2" value="Wie int / houdt in?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="720" y="125" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2h3" value="Waar komt het terecht?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="125" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2h4" value="Beheer / uitvoering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="125" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2h5" value="Ontvangers / besteding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="125" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r0c0" value="Loonbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="175" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r0c1" value="Werknemer / uitkeringsgerechtigde / gepensioneerde" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="175" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r0c2" value="Werkgever of uitkeringsinstantie houdt in; Belastingdienst ontvangt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="175" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r0c3" value="Rijksbegroting; voorheffing op inkomstenbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="175" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r0c4" value="Ministerie van Financiën / Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="175" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r0c5" value="Algemene rijksuitgaven; verrekening bij aanslag inkomstenbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="175" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r1c0" value="Inkomstenbelasting box 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="231" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r1c1" value="Natuurlijke personen met inkomen uit werk en woning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="231" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r1c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="231" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r1c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="231" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r1c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="231" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r1c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="231" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r2c0" value="Inkomstenbelasting box 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="287" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r2c1" value="Natuurlijke personen met aanmerkelijk belang" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="287" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r2c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="287" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r2c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="287" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r2c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="287" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r2c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="287" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r3c0" value="Inkomstenbelasting box 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="343" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r3c1" value="Natuurlijke personen met belastbaar vermogen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="343" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r3c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="343" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r3c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="343" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r3c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="343" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r3c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="343" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r4c0" value="Omzetbelasting (btw)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="399" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r4c1" value="Consument draagt; ondernemer berekent en draagt af" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="399" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r4c2" value="Ondernemer → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="399" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r4c3" value="Rijksbegroting / EU-afdracht volgens begrotingssystematiek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="399" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r4c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="399" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r4c5" value="Algemene overheidsuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="399" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r5c0" value="Vennootschapsbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="455" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r5c1" value="Belastbare lichamen, zoals bv en nv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="455" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r5c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="455" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r5c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="455" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r5c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="455" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r5c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="455" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r6c0" value="Dividendbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="511" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r6c1" value="Uitkerende vennootschap houdt in op dividend van aandeelhouder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="511" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r6c2" value="Vennootschap → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="511" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r6c3" value="Rijksbegroting; meestal voorheffing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="511" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r6c4" value="Belastingdienst via aangifte" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="511" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r6c5" value="Verrekening met inkomstenbelasting of vennootschapsbelasting; anders definitieve opbrengst / eventuele teruggaaf" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="511" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r7c0" value="Bronbelasting rente, royalty’s en dividenden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="567" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r7c1" value="In specifieke grensoverschrijdende situaties: betalende entiteit / ontvanger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="567" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r7c2" value="Inhoudingsplichtige → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="567" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r7c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="567" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r7c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="567" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r7c5" value="Algemene rijksuitgaven; verdrags- of vrijstellingsregels kunnen gelden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="567" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r8c0" value="Loonheffingen: combinatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="623" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r8c1" value="Werknemer en/of werkgever afhankelijk van onderdeel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="623" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r8c2" value="Werkgever / uitkeringsinstantie → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="623" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r8c3" value="Belastingen en afzonderlijke sociale fondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="623" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r8c4" value="Belastingdienst verdeelt volgens heffing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="623" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r8c5" value="Inkomstenbelasting, AOW/Anw/Wlz, werknemersverzekeringen en Zvw-bijdrage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="623" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r9c0" value="Erfbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="679" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r9c1" value="Verkrijger uit nalatenschap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="679" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r9c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="679" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r9c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="679" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r9c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="679" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r9c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="679" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r10c0" value="Schenkbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="735" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r10c1" value="Ontvanger van schenking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="735" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r10c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="735" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r10c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="735" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r10c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="735" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r10c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="735" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r11c0" value="Kansspelbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="791" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r11c1" value="Winnaar en/of aanbieder, afhankelijk van kansspel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="791" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r11c2" value="Aanbieder houdt in of belastingplichtige doet aangifte; Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="791" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r11c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="791" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r11c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="791" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r11c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="791" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r12c0" value="Overdrachtsbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="847" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r12c1" value="Verkrijger van onroerende zaak of rechten daarop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="847" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r12c2" value="Notaris draagt doorgaans af aan Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="847" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r12c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="847" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r12c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="847" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r12c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="847" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r13c0" value="Assurantiebelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="903" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r13c1" value="Verzekeringnemer via verzekeraar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="903" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r13c2" value="Verzekeraar / tussenpersoon → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="903" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r13c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="903" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r13c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="903" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r13c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="903" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r14c0" value="Motorrijtuigenbelasting (MRB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="959" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r14c1" value="Houder van motorrijtuig" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="959" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r14c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="959" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r14c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="959" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r14c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="959" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r14c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="959" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r15c0" value="BPM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1015" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r15c1" value="Koper/importeur/registrant van personenauto, motor of bestelauto volgens regels" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1015" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r15c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1015" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r15c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1015" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r15c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1015" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r15c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1015" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r16c0" value="Accijns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1071" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r16c1" value="Consument draagt; producent/importeur draagt af" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1071" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r16c2" value="Douane / Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1071" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r16c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1071" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r16c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1071" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r16c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1071" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r17c0" value="Verbruiksbelasting alcoholvrije dranken" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1127" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r17c1" value="Consument draagt; producent/importeur draagt af" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1127" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r17c2" value="Douane / Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1127" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r17c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1127" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r17c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1127" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r17c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1127" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r18c0" value="Energiebelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1183" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r18c1" value="Afnemer via energieleverancier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1183" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r18c2" value="Energieleverancier → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1183" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r18c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1183" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r18c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1183" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r18c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1183" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r19c0" value="Belasting op leidingwater" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1239" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r19c1" value="Afnemer via waterbedrijf" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1239" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r19c2" value="Waterbedrijf → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1239" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r19c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1239" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r19c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1239" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r19c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1239" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r20c0" value="Afvalstoffenbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1295" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r20c1" value="Belastingplichtige afvalverwerker/exporteur volgens regels" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1295" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r20c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1295" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r20c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1295" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r20c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1295" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r20c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1295" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r21c0" value="Vliegbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1351" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r21c1" value="Passagier via luchthaven/luchtvaartketen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1351" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r21c2" value="Belastingplichtige luchthaven → Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1351" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r21c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1351" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r21c4" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1351" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r21c5" value="Algemene rijksuitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1351" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r22c0" value="Invoerrechten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1407" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r22c1" value="Importeur / aangever" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1407" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r22c2" value="Douane" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1407" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r22c3" value="EU-middelen; inning door Nederlandse Douane" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1407" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r22c4" value="EU / Douane" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1407" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2r22c5" value="EU-begroting, met inningssystematiek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1407" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p2note" value="Scope: belangrijkste landelijke belastingen en heffingen. “Rijksbegroting” betekent niet dat de opbrengst één-op-één aan één voorziening is gekoppeld. Sociale premies en pensioen staan op aparte pagina’s." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1493" width="2380" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3 - Sociale zekerheid en zorg" id="p3">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p3t" value="Sociale zekerheid en zorg: inkomstenkant → fonds → uitgavenkant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1E1B4B;fontColor=#FFFFFF;fontStyle=1;fontSize=20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="1800" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p3h0" value="Heffing / premie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="125" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3h1" value="Wie betaalt?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="125" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3h2" value="Wie int / houdt in?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="720" y="125" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3h3" value="Waar komt het terecht?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="125" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3h4" value="Beheer / uitvoering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="125" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3h5" value="Ontvangers / besteding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="125" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r0c0" value="AOW-premie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="175" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r0c1" value="Verzekerden vóór AOW-leeftijd via premie-inkomen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="175" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r0c2" value="Werkgever/uitkeringsinstantie houdt rekening; Belastingdienst int/verrekent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="175" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r0c3" value="Ouderdomsfonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="175" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r0c4" value="SVB voert AOW uit; fonds binnen sociale zekerheid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="175" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r0c5" value="AOW-gerechtigden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="175" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r1c0" value="Rijksbijdrage AOW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="231" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r1c1" value="Het Rijk uit algemene middelen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="231" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r1c2" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="231" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r1c3" value="Ouderdomsfonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="231" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r1c4" value="Rijk / SVB-uitvoering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="231" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r1c5" value="AOW-gerechtigden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="231" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r2c0" value="Anw-premie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="287" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r2c1" value="Verzekerden via premie-inkomen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="287" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r2c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="287" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r2c3" value="Nabestaandenfonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="287" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r2c4" value="SVB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="287" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r2c5" value="Rechthebbende nabestaanden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="287" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r3c0" value="Wlz-premie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="343" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r3c1" value="Verzekerden via premie-inkomen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="343" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r3c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="343" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r3c3" value="Fonds langdurige zorg (Flz)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="343" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r3c4" value="Zorginstituut beheert; zorgkantoren voeren uit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="343" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r3c5" value="Zorgkantoren en Wlz-zorginstellingen; uiteindelijk mensen met langdurige zorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="343" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r4c0" value="Rijksbijdragen langdurige zorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="399" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r4c1" value="Het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="399" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r4c2" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="399" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r4c3" value="Fonds langdurige zorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="399" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r4c4" value="Zorginstituut" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="399" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r4c5" value="Langdurige zorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="399" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r5c0" value="Inkomensafhankelijke bijdrage Zvw" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="455" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r5c1" value="Werkgever, uitkeringsinstantie of verzekerde, afhankelijk van situatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="455" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r5c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="455" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r5c3" value="Zorgverzekeringsfonds (Zvf)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="455" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r5c4" value="Zorginstituut Nederland" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="455" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r5c5" value="Zorgverzekeraars via risicoverevening; financiering basispakket" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="455" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r6c0" value="Nominale zorgpremie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="511" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r6c1" value="Iedere verzekerde van 18 jaar en ouder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="511" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r6c2" value="Zorgverzekeraar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="511" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r6c3" value="Rechtstreeks bij zorgverzekeraar, niet eerst in Zvf" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="511" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r6c4" value="Zorgverzekeraar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="511" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r6c5" value="Gecontracteerde of vergoede basiszorg voor verzekerden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="511" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r7c0" value="Rijksbijdrage kinderen Zvw / overige rijksbijdragen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="567" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r7c1" value="Het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="567" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r7c2" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="567" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r7c3" value="Zorgverzekeringsfonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="567" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r7c4" value="Zorginstituut" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="567" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r7c5" value="Zorgverzekeraars en basiszorg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="567" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r8c0" value="Eigen risico / eigen betaling Zvw" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="623" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r8c1" value="Verzekerde" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="623" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r8c2" value="Zorgverzekeraar of zorgaanbieder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="623" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r8c3" value="Zorgverzekeraar / betaling zorgrekening" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="623" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r8c4" value="Zorgverzekeraar / zorgaanbieder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="623" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r8c5" value="Kosten van zorg van de verzekerde" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="623" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r9c0" value="WW-premie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="679" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r9c1" value="In hoofdzaak werkgever; werknemer kan in specifieke componenten meebetalen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="679" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r9c2" value="Werkgever geeft loonheffingen aan; Belastingdienst int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="679" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r9c3" value="Algemeen Werkloosheidsfonds (AWf) en relevante fondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="679" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r9c4" value="UWV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="679" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r9c5" value="WW-gerechtigden en uitvoeringskosten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="679" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r10c0" value="WIA/WAO-premies" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="735" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r10c1" value="Werkgever; gedifferentieerde componenten mogelijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="735" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r10c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="735" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r10c3" value="Arbeidsongeschiktheidsfonds (Aof) en Werkhervattingskas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="735" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r10c4" value="UWV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="735" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r10c5" value="WIA/WAO-uitkeringsgerechtigden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="735" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r11c0" value="ZW-financiering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="791" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r11c1" value="Werkgever via relevante werknemerspremies / Werkhervattingskas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="791" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r11c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="791" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r11c3" value="Relevante werknemersverzekeringsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="791" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r11c4" value="UWV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="791" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r11c5" value="Ziektewetgerechtigden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="791" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r12c0" value="WAZO-financiering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="847" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r12c1" value="Werkgever via werknemersverzekeringssystematiek en fondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="847" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r12c2" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="847" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r12c3" value="Relevante sociale fondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="847" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r12c4" value="UWV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="847" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r12c5" value="Gerechtigden zwangerschaps-, bevallings- en andere WAZO-uitkeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="847" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r13c0" value="Wajong-uitgaven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="903" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r13c1" value="Algemene rijksmiddelen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="903" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r13c2" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="903" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r13c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="903" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r13c4" value="UWV voert uit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="903" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r13c5" value="Wajong-gerechtigden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="903" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r14c0" value="Bijstand / Participatiewet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="959" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r14c1" value="Algemene middelen Rijk en gemeentelijke middelen volgens financiering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="959" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r14c2" value="Rijk en gemeenten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="959" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r14c3" value="Gemeentelijke begrotingen / rijksbijdragen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="959" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r14c4" value="Gemeenten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="959" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r14c5" value="Bijstandsgerechtigden en re-integratie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="959" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r15c0" value="Kinderbijslag (AKW)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1015" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r15c1" value="Algemene rijksmiddelen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1015" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r15c2" value="Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1015" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r15c3" value="Rijksbegroting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1015" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r15c4" value="SVB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1015" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3r15c5" value="Ouders/verzorgers die recht hebben op kinderbijslag" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1015" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p3note" value="Zorginstituut Nederland beheert het Zorgverzekeringsfonds en Fonds langdurige zorg. De nominale zorgpremie loopt rechtstreeks naar de zorgverzekeraar; de inkomensafhankelijke bijdrage loopt via de Belastingdienst naar het Zorgverzekeringsfonds." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1101" width="2380" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4 - Pensioen" id="p4">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p4t" value="Pensioenpijlers: inleg → vermogen/fonds → uitkering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1E1B4B;fontColor=#FFFFFF;fontStyle=1;fontSize=20;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="1800" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="p4h0" value="Heffing / premie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="125" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4h1" value="Wie betaalt?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="125" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4h2" value="Wie int / houdt in?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="720" y="125" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4h3" value="Waar komt het terecht?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="125" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4h4" value="Beheer / uitvoering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="125" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4h5" value="Ontvangers / besteding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;fontColor=#1E1B4B;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="125" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r0c0" value="Tweede pijler: werknemerspremie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="175" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r0c1" value="Werknemer, meestal via inhouding op brutoloon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="175" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r0c2" value="Werkgever houdt in en draagt af" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="175" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r0c3" value="Pensioenfonds, verzekeraar of premiepensioeninstelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="175" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r0c4" value="Pensioenuitvoerder; vermogen wordt belegd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="175" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r0c5" value="Later ouderdomspensioen; volgens regeling ook partner- en wezenpensioen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="175" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r1c0" value="Tweede pijler: werkgeverspremie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="231" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r1c1" value="Werkgever" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="231" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r1c2" value="Werkgever draagt rechtstreeks af" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="231" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r1c3" value="Pensioenfonds, verzekeraar of PPI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="231" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r1c4" value="Pensioenuitvoerder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="231" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r1c5" value="Deelnemers en nabestaanden volgens regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="231" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r2c0" value="Beleggingsrendement pensioen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="287" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r2c1" value="Pensioenvermogen levert rendement of verlies op" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="287" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r2c2" value="Vermogensbeheerder / pensioenuitvoerder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="287" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r2c3" value="Belegd pensioenvermogen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="287" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r2c4" value="Pensioenfonds of uitvoerder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="287" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r2c5" value="Onderdeel financiering toekomstige uitkeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="287" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r3c0" value="Derde pijler: lijfrente/banksparen/pensioenbeleggen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="343" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r3c1" value="Particulier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="343" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r3c2" value="Bank, verzekeraar of beleggingsinstelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="343" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r3c3" value="Individueel fiscaal pensioenproduct" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="343" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r3c4" value="Aanbieder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="343" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r3c5" value="Rekeninghouder later; eventueel nabestaanden volgens product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="343" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r4c0" value="Fiscale aftrek derde pijler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="399" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r4c1" value="Belastingplichtige claimt aftrek binnen fiscale ruimte" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="399" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r4c2" value="Belastingdienst via aangifte inkomstenbelasting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="399" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r4c3" value="Lagere heffing in box 1 in inlegfase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="399" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r4c4" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="399" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r4c5" value="Belastingplichtige ontvangt belastingvoordeel; latere uitkeringen zijn doorgaans belast volgens regels" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="399" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r5c0" value="Pensioenuitkering tweede/derde pijler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="455" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r5c1" value="Pensioenuitvoerder betaalt uit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="455" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r5c2" value="Uitvoerder houdt loonheffing in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="455" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r5c3" value="Netto-uitkering naar huishouden; loonheffing naar Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="455" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r5c4" value="Pensioenuitvoerder / Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="455" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r5c5" value="Gepensioneerde of nabestaande" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="455" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r6c0" value="AOW: eerste pijler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="511" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r6c1" value="Premies + algemene middelen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="511" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r6c2" value="Belastingdienst / Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="511" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r6c3" value="Ouderdomsfonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="511" width="410" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r6c4" value="SVB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="511" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4r6c5" value="AOW-gerechtigden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontColor=#0F172A;fontSize=10;align=left;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="511" width="500" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p4note" value="Kernverschil: AOW is publieke sociale zekerheid binnen S.13. Werkgeverspensioen en veel derde-pijlerproducten zitten bij financiële instellingen in S.12. Dividendbelasting op beleggingen is een aparte bronheffing; de uiteindelijke behandeling kan afhangen van de belastingpositie van de ontvanger." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=10;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="597" width="2380" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

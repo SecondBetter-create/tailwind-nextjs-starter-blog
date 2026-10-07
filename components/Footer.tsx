@@ -1,36 +1,35 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
-import SocialIcon from '@/components/social-icons'
+import headerNavLinks from '@/data/headerNavLinks'
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="mt-16 flex flex-col items-center">
-        <div className="mb-3 flex space-x-4">
-          <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
-          <SocialIcon kind="github" href={siteMetadata.github} size={6} />
-          <SocialIcon kind="facebook" href={siteMetadata.facebook} size={6} />
-          <SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} />
-          <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
-          <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
-          <SocialIcon kind="bluesky" href={siteMetadata.bluesky} size={6} />
-          <SocialIcon kind="x" href={siteMetadata.x} size={6} />
-          <SocialIcon kind="instagram" href={siteMetadata.instagram} size={6} />
-          <SocialIcon kind="threads" href={siteMetadata.threads} size={6} />
-          <SocialIcon kind="medium" href={siteMetadata.medium} size={6} />
-        </div>
-        <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          <div>{siteMetadata.author}</div>
-          <div>{` • `}</div>
-          <div>{`© ${new Date().getFullYear()}`}</div>
-          <div>{` • `}</div>
-          <Link href="/">{siteMetadata.title}</Link>
-        </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Tailwind Nextjs Theme
+    <footer className="mt-16 border-t border-gray-200 dark:border-gray-800">
+      <div className="grid gap-8 py-10 sm:grid-cols-[1fr_auto] sm:items-center">
+        <div>
+          <Link href="/" className="text-lg font-bold tracking-tight text-gray-950 dark:text-white">
+            {siteMetadata.title}
           </Link>
+          <p className="mt-2 max-w-md text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+            Heldere uitleg over belasting, sociale zekerheid, pensioen en geld voor later.
+          </p>
         </div>
+        <nav aria-label="Footernavigatie" className="flex flex-wrap gap-x-5 gap-y-2">
+          {headerNavLinks
+            .filter((link) => link.href !== '/')
+            .map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-gray-600 hover:text-blue-800 dark:text-gray-400 dark:hover:text-blue-300"
+              >
+                {link.title}
+              </Link>
+            ))}
+        </nav>
+      </div>
+      <div className="border-t border-gray-200 py-4 text-sm text-gray-500 dark:border-gray-800 dark:text-gray-400">
+        © {new Date().getFullYear()} {siteMetadata.author}
       </div>
     </footer>
   )

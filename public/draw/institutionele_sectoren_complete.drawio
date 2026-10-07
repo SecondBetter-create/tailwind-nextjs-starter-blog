@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="2" value="Institutionele sectoren — compleet overzicht" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27216C;strokeColor=#1F1A55;fontColor=#FFFFFF;fontStyle=1;fontSize=22;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="40" y="20" width="1560" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="3" value="Een institutionele sector is een groep deelnemers aan het economisch proces met dezelfde positie en functie in de economie. Het bronschema verwijst naar ESR-1995 en onderscheidt vijf elkaar uitsluitende hoofdsectoren." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#7C2D12;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+      <mxGeometry x="40" y="95" width="1560" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="4" value="1. Hoofdindeling institutionele sectoren" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="190" width="1560" height="272" as="geometry" />
+    </mxCell>
+    <mxCell id="5" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="4">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="6" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="4">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="7" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="4">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="8" value="Sector overheid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="9" value="Overheid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="10" value="Rijk, provincies, gemeenten, gemeenschappelijke regelingen, waterschappen en publiekrechtelijke bedrijfsorganisaties" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="11" value="Sector huishoudens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="12" value="Huishoudens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="13" value="Natuurlijke personen in huishoudens die langer dan één jaar in Nederland verblijven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="14" value="Instellingen zonder winstoogmerk ten behoeve van huishoudens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="15" value="IZW-huishoudens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="16" value="Verenigingen en stichtingen die vooral worden gefinancierd door vrijwillige bijdragen en vermogen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="17" value="Sector financiële instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="18" value="Financiële sector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="19" value="(Quasi-)vennootschappen met financiële intermediatie als hoofdfunctie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="20" value="Sector niet-financiële vennootschappen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="15" y="230" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="21" value="Niet-financiële sector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="445" y="230" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="22" value="Producenten van goederen en verhandelbare niet-financiële diensten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="4">
+      <mxGeometry x="695" y="230" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="23" value="2. Sector overheid — wettelijke sociale verzekeringsinstellingen" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="487" width="1560" height="668" as="geometry" />
+    </mxCell>
+    <mxCell id="24" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="23">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="25" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="23">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="26" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="23">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="27" value="Toezichts- en uitvoeringsorganen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="28" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="29" value="UWV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="30" value="Toezichts- en uitvoeringsorganen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="31" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="32" value="College van Toezicht Sociale Verzekeringen (CTSV)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="33" value="Toezichts- en uitvoeringsorganen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="34" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="35" value="Sociale Verzekeringsbank (SVB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="36" value="Toezichts- en uitvoeringsorganen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="37" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="38" value="Zorginstituut Nederland" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="39" value="Werknemersverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="230" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="40" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="230" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="41" value="WW — werkloosheid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="230" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="42" value="Werknemersverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="266" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="43" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="266" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="44" value="WIA / IVA / WGA — arbeidsongeschiktheid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="266" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="45" value="Werknemersverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="302" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="46" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="302" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="47" value="Ziektewet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="302" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="48" value="Werknemersverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="338" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="49" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="338" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="50" value="WAZO — zwangerschapsverlof" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="338" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="51" value="Werknemersverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="374" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="52" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="374" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="53" value="Wajong" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="374" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="54" value="Volksverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="410" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="55" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="410" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="56" value="Anw — Algemene nabestaandenwet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="410" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="57" value="Volksverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="446" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="58" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="446" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="59" value="AOW — Algemene Ouderdomswet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="446" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="60" value="Zorgverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="482" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="61" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="482" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="62" value="Zorgverzekeringswet (Zvw)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="482" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="63" value="Zorgverzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="518" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="64" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="518" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="65" value="Wet langdurige zorg (Wlz)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="518" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="66" value="Sociale verzekeringsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="554" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="67" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="554" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="68" value="AOW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="554" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="69" value="Sociale verzekeringsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="590" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="70" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="590" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="71" value="WW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="590" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="72" value="Sociale verzekeringsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="15" y="626" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="73" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="445" y="626" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="74" value="Arbeidsongeschiktheidsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="23">
+      <mxGeometry x="695" y="626" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="75" value="3. Sector overheid — lokale overheid" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="1180" width="1560" height="740" as="geometry" />
+    </mxCell>
+    <mxCell id="76" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="75">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="77" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="75">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="78" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="75">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="79" value="Verzelfstandigde lokale overheidsdiensten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="80" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="81" value="Regionale politiekorpsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="82" value="Verzelfstandigde lokale overheidsdiensten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="83" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="84" value="Bureaus voor arbeidsbemiddeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="85" value="Gemeenschappelijke regelingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="86" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="87" value="Sociale werkvoorziening" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="88" value="Gemeenschappelijke regelingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="89" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="90" value="Waterzuivering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="91" value="Gemeenschappelijke regelingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="230" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="92" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="230" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="93" value="Brandweer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="230" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="94" value="Gemeenschappelijke regelingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="266" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="95" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="266" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="96" value="Afvalverwerking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="266" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="97" value="Bestuurslagen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="302" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="98" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="302" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="99" value="Gemeenten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="302" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="100" value="Bestuurslagen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="338" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="101" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="338" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="102" value="Provincies en waterschappen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="338" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="103" value="Sociale voorzieningen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="374" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="104" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="374" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="105" value="IOAZ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="374" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="106" value="Sociale voorzieningen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="410" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="107" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="410" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="108" value="IOAW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="410" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="109" value="Sociale voorzieningen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="446" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="110" value="Regeling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="446" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="111" value="Bijstandsuitkering (Participatiewet)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="446" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="112" value="Privaatrechtelijke lokale instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="482" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="113" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="482" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="114" value="Jeugd Werk Garantieplan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="482" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="115" value="Privaatrechtelijke lokale instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="518" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="116" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="518" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="117" value="Cultuur en onderwijs, zoals banenpools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="518" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="118" value="Privaatrechtelijke lokale instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="554" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="119" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="554" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="120" value="Musea" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="554" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="121" value="Privaatrechtelijke lokale instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="590" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="122" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="590" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="123" value="Centra voor asielzoekers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="590" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="124" value="Privaatrechtelijke lokale instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="626" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="125" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="626" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="126" value="Bibliotheken" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="626" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="127" value="Privaatrechtelijke lokale instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="662" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="128" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="662" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="129" value="Maatschappelijk werk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="662" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="130" value="Privaatrechtelijke lokale instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="15" y="698" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="131" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="445" y="698" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="132" value="Scholen voor bijzonder onderwijs en studiebegeleidingsdiensten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="75">
+      <mxGeometry x="695" y="698" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="133" value="4. Sector overheid — centrale overheid" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="1945" width="1560" height="416" as="geometry" />
+    </mxCell>
+    <mxCell id="134" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="133">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="135" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="133">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="136" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="133">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="137" value="Publiekrechtelijk, zelfstandig buiten het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="138" value="RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="139" value="Bekostigde universiteiten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="140" value="Publiekrechtelijk, zelfstandig buiten het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="141" value="Overige instelling / RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="142" value="Open Universiteit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="143" value="Publiekrechtelijk, zelfstandig buiten het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="144" value="ZBO + RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="145" value="Raad voor de rechtspraak" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="146" value="Publiekrechtelijk, zelfstandig buiten het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="147" value="ZBO + RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="148" value="Kamer van Koophandel (KvK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="149" value="Publiekrechtelijk, zelfstandig buiten het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="230" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="150" value="ZBO + RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="230" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="151" value="Centraal Bureau Rijvaardigheidsbewijzen (CBR)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="230" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="152" value="Publiekrechtelijk, zelfstandig buiten het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="266" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="153" value="ZBO + RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="266" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="154" value="DNB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="266" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="155" value="Publiekrechtelijk, zelfstandig buiten het Rijk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="302" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="156" value="ZBO + RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="302" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="157" value="AFM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="302" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="158" value="Privaatrechtelijk, stichtingen met publieke taak" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="338" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="159" value="RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="338" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="160" value="Onderzoeksinstituten (NWO, KNAW)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="338" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="161" value="Privaatrechtelijk, stichtingen met publieke taak" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="15" y="374" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="162" value="Functioneel RWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="445" y="374" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="163" value="Ideële stichtingen (Oxfam, VVN)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="133">
+      <mxGeometry x="695" y="374" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="164" value="5. Het Rijk" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="2386" width="1560" height="596" as="geometry" />
+    </mxCell>
+    <mxCell id="165" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="164">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="166" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="164">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="167" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="164">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="168" value="Begrotingsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="169" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="170" value="Gemeentefonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="171" value="Begrotingsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="172" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="173" value="Provinciefonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="174" value="Begrotingsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="175" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="176" value="Mobiliteitsfonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="177" value="Begrotingsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="178" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="179" value="Infrastructuurfonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="180" value="Begrotingsfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="230" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="181" value="Fonds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="230" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="182" value="Overige Rijksfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="230" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="183" value="Ministeries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="266" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="184" value="Ministerie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="266" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="185" value="Ministerie van Algemene Zaken" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="266" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="186" value="Ministeries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="302" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="187" value="Ministerie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="302" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="188" value="Ministerie van Financiën" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="302" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="189" value="Ministeries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="338" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="190" value="Ministerie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="338" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="191" value="Ministerie van Sociale Zaken en Werkgelegenheid (SZW)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="338" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="192" value="Ministeries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="374" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="193" value="Ministerie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="374" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="194" value="Ministerie van Defensie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="374" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="195" value="Ministeries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="410" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="196" value="Ministerie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="410" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="197" value="Ministerie van Justitie en Veiligheid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="410" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="198" value="Ministeries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="446" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="199" value="Ministerie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="446" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="200" value="Overige ministeries, zoals OCW, VWS en EZK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="446" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="201" value="Uitvoeringsorganisaties" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="482" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="202" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="482" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="203" value="Dienst Toeslagen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="482" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="204" value="Uitvoeringsorganisaties" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="518" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="205" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="518" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="206" value="Belastingdienst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="518" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="207" value="Uitvoeringsorganisaties" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="15" y="554" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="208" value="Organisatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="445" y="554" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="209" value="DUO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="164">
+      <mxGeometry x="695" y="554" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="210" value="6. Sector huishoudens" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="3007" width="1560" height="200" as="geometry" />
+    </mxCell>
+    <mxCell id="211" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="210">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="212" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="210">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="213" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="210">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="214" value="Particuliere huishoudens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="215" value="Woonvorm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="216" value="Op zichzelf wonende personen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="217" value="Particuliere huishoudens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="218" value="Woonvorm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="219" value="In gezinsverband wonende personen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="220" value="Institutionele huishoudens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="221" value="Woonvorm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="222" value="Personen in verpleeginrichtingen, bejaardentehuizen, gevangenissen en internaten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="210">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="223" value="7. Instellingen zonder winstoogmerk ten behoeve van huishoudens" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="3232" width="1560" height="236" as="geometry" />
+    </mxCell>
+    <mxCell id="224" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="223">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="225" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="223">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="226" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="223">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="227" value="Religie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="228" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="229" value="Religieuze instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="230" value="Politiek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="231" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="232" value="Politieke partijen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="233" value="Belangenbehartiging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="234" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="235" value="Vakbonden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="236" value="Cultuur, sport en recreatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="237" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="238" value="Verenigingen op het gebied van cultuur, sport en recreatie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="223">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="239" value="8. Sector financiële instellingen" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="3493" width="1560" height="236" as="geometry" />
+    </mxCell>
+    <mxCell id="240" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="239">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="241" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="239">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="242" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="239">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="243" value="Monetaire financiële instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="244" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="245" value="Monetaire financiële instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="246" value="Verzekeringen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="247" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="248" value="Verzekeringsinstellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="249" value="Pensioen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="250" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="251" value="Pensioenfondsen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="252" value="Overig" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="253" value="Instelling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="254" value="Overige financiële instellingen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="239">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="255" value="9. Sector niet-financiële vennootschappen" style="swimlane;horizontal=1;startSize=42;rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+      <mxGeometry x="40" y="3754" width="1560" height="272" as="geometry" />
+    </mxCell>
+    <mxCell id="256" value="Categorie" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="255">
+      <mxGeometry x="15" y="52" width="430" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="257" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="255">
+      <mxGeometry x="445" y="52" width="250" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="258" value="Organisatie, regeling, omschrijving of voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#A5B4FC;fontColor=#312E81;fontStyle=1;fontSize=12;align=left;spacingLeft=8;" vertex="1" parent="255">
+      <mxGeometry x="695" y="52" width="850" height="34" as="geometry" />
+    </mxCell>
+    <mxCell id="259" value="Marktproducenten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="15" y="86" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="260" value="Rechtsvorm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="445" y="86" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="261" value="Naamloze en besloten vennootschappen (nv’s en bv’s)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="695" y="86" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="262" value="Marktproducenten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="15" y="122" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="263" value="Rechtsvorm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="445" y="122" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="264" value="Quasi-vennootschappen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="695" y="122" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="265" value="Marktproducenten" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="15" y="158" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="266" value="Rechtsvorm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="445" y="158" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="267" value="Coöperatieve verenigingen die niet tot financiële instellingen behoren" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="695" y="158" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="268" value="Overheidsbedrijven" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="15" y="194" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="269" value="Voorbeeld" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="445" y="194" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="270" value="Vennootschappen die geheel of gedeeltelijk eigendom zijn van de overheid, zoals NS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="695" y="194" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="271" value="Instellingen zonder winstoogmerk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="15" y="230" width="430" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="272" value="Voorbeelden uit bronschema" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="445" y="230" width="250" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="273" value="Bejaardenoorden, ziekenhuizen en woningcorporaties" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;fontColor=#111827;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" vertex="1" parent="255">
+      <mxGeometry x="695" y="230" width="850" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="274" value="Bronnotitie: deze XML zet de aangeleverde, URL-gecodeerde mxGraph-inhoud om naar een uniforme tabelstructuur. Verouderde of mogelijk onjuiste classificaties uit het bronschema zijn bewust niet stilzwijgend inhoudelijk aangepast." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;fontColor=#7C2D12;fontSize=11;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+      <mxGeometry x="40" y="4051" width="1560" height="70" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

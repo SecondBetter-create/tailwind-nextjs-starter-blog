@@ -7,7 +7,8 @@ import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
 
 const Header = () => {
-  let headerClass = 'flex items-center w-full bg-white dark:bg-gray-950 justify-between py-10'
+  let headerClass =
+    'flex w-full items-center justify-between gap-6 border-b border-gray-200 bg-white/95 py-4 backdrop-blur dark:border-gray-800 dark:bg-gray-950/95'
   if (siteMetadata.stickyNav) {
     headerClass += ' sticky top-0 z-50'
   }
@@ -20,7 +21,7 @@ const Header = () => {
             <Logo />
           </div>
           {typeof siteMetadata.headerTitle === 'string' ? (
-            <div className="hidden h-6 text-2xl font-semibold sm:block">
+            <div className="hidden h-6 text-xl font-bold tracking-tight sm:block">
               {siteMetadata.headerTitle}
             </div>
           ) : (
@@ -28,20 +29,23 @@ const Header = () => {
           )}
         </div>
       </Link>
-      <div className="flex items-center space-x-4 leading-5 sm:-mr-6 sm:space-x-6">
-        <div className="no-scrollbar hidden max-w-40 items-center gap-x-4 overflow-x-auto sm:flex md:max-w-72 lg:max-w-96">
+      <div className="flex min-w-0 items-center gap-2 leading-5 sm:gap-3">
+        <nav
+          aria-label="Hoofdnavigatie"
+          className="no-scrollbar hidden min-w-0 items-center gap-x-1 overflow-x-auto lg:flex"
+        >
           {headerNavLinks
             .filter((link) => link.href !== '/')
             .map((link) => (
               <Link
                 key={link.title}
                 href={link.href}
-                className="hover:text-primary-500 dark:hover:text-primary-400 m-1 font-medium text-gray-900 dark:text-gray-100"
+                className="rounded-lg px-3 py-2 text-sm font-semibold whitespace-nowrap text-gray-700 transition hover:bg-blue-50 hover:text-blue-800 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-blue-300"
               >
                 {link.title}
               </Link>
             ))}
-        </div>
+        </nav>
         <SearchButton />
         <ThemeSwitch />
         <MobileNav />
